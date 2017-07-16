@@ -1576,6 +1576,15 @@ img.img-4-3 {
   font-size: 14px;
 }
 
+.contact-box .input p {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 28px;
+  padding: 5px;
+  font-size: 14px;
+}
+
 .contact-box button.code {
   height: 30px;
   color: #FFFFFF;
@@ -1615,6 +1624,49 @@ img.img-4-3 {
 .tips-box p {
   font-size: 12px;
   color: #595757;
+}
+
+.area-title {
+  position: relative;
+  height: 50px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.area-title .title {
+  line-height: 50px;
+  text-align: center;
+}
+
+.area-title button {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  margin-top: -8px;
+  background-color: transparent;
+}
+
+.area-title button.area-back {
+  right: 15px;
+  color: #bc0f00;
+}
+
+.area-title button.area-close {
+  width: auto;
+  height: auto;
+  left: 15px;
+  right: auto;
+  color: #aaaaaa;
+  background-image: none;
+}
+
+.area-content {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.area-content ul.area-list li {
+  padding: 10px 15px;
+  border-bottom: 1px solid #DDDDDD;
 }
 
 .content-5 {
